@@ -78,7 +78,7 @@ python code/verify_v2.py 8    # complex-number orientations
 
 ## Prior Art and Acknowledgments
 
-The sequence A352029 was created by John Mason (2022) with data through a(7) = 204. The companion sequence [A327094](https://oeis.org/A327094) (minimum container sizes) was created by Peter Kagey (2019). Peter Taylor contributed conjectured values for A327094 through a(12) via a C# SAT solver. This work extends A352029 with the new term a(8) = 7.
+The sequence A352029 was created by John Mason (2022) with data through a(7) = 204. The companion sequence [A327094](https://oeis.org/A327094) (minimum container sizes) was created by Peter Kagey (2019). This work extends A352029 with the new term a(8) = 7.
 
 The problem generalises T. R. Dawson's 1942 Minimum Common Superform question for pentominoes (*Fairy Chess Review* Vol. 5 No. 4) to arbitrary n.
 
