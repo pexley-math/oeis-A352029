@@ -13,44 +13,37 @@
     "1": {
       "value": 1,
       "proved": true,
-      "container_size": 1,
-      "time_s": 0
+      "container_size": 1
     },
     "2": {
       "value": 1,
       "proved": true,
-      "container_size": 2,
-      "time_s": 0
+      "container_size": 2
     },
     "3": {
       "value": 2,
       "proved": true,
-      "container_size": 4,
-      "time_s": 0.2
+      "container_size": 4
     },
     "4": {
       "value": 2,
       "proved": true,
-      "container_size": 6,
-      "time_s": 0.1
+      "container_size": 6
     },
     "5": {
       "value": 2,
       "proved": true,
-      "container_size": 9,
-      "time_s": 0.2
+      "container_size": 9
     },
     "6": {
       "value": 14,
       "proved": true,
-      "container_size": 12,
-      "time_s": 0.4
+      "container_size": 12
     },
     "7": {
       "value": 204,
       "proved": true,
-      "container_size": 17,
-      "time_s": 45.6
+      "container_size": 17
     },
     "8": {
       "value": 7,
@@ -60,13 +53,1180 @@
     }
   },
   "metadata": {
+    "n": 8,
+    "k": 20,
+    "free_polyominoes": 369,
+    "partitions_total": 36,
     "solver": "CEGAR-dual",
+    "proved": true,
+    "time": 47.2,
+    "use_mandatory": true,
+    "cython": false,
+    "partitions": [
+      {
+        "H": 4,
+        "W": 9,
+        "area": 36,
+        "slack": 16,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 0.2,
+        "pieces_used": 20,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 4,
+        "W": 8,
+        "area": 32,
+        "slack": 12,
+        "distinct": 6,
+        "raw": 14,
+        "new_global": 6,
+        "proved": true,
+        "time": 0.5,
+        "pieces_used": 24,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 7,
+        "W": 8,
+        "area": 56,
+        "slack": 36,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 0.7,
+        "pieces_used": 20,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 5,
+        "W": 8,
+        "area": 40,
+        "slack": 20,
+        "distinct": 1,
+        "raw": 2,
+        "new_global": 1,
+        "proved": true,
+        "time": 0.8,
+        "pieces_used": 61,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 6,
+        "W": 8,
+        "area": 48,
+        "slack": 28,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 0.9,
+        "pieces_used": 36,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 4,
+        "W": 10,
+        "area": 40,
+        "slack": 20,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 0.1,
+        "pieces_used": 10,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 7,
+        "W": 9,
+        "area": 63,
+        "slack": 43,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 1.1,
+        "pieces_used": 10,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 6,
+        "W": 9,
+        "area": 54,
+        "slack": 34,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 1.4,
+        "pieces_used": 20,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 5,
+        "W": 9,
+        "area": 45,
+        "slack": 25,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 2.0,
+        "pieces_used": 50,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 6,
+        "W": 10,
+        "area": 60,
+        "slack": 40,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 1.4,
+        "pieces_used": 10,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 5,
+        "W": 10,
+        "area": 50,
+        "slack": 30,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 1.7,
+        "pieces_used": 30,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 4,
+        "W": 11,
+        "area": 44,
+        "slack": 24,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 0.2,
+        "pieces_used": 10,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 7,
+        "W": 10,
+        "area": 70,
+        "slack": 50,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 2.1,
+        "pieces_used": 10,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 5,
+        "W": 11,
+        "area": 55,
+        "slack": 35,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 2.5,
+        "pieces_used": 20,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 6,
+        "W": 11,
+        "area": 66,
+        "slack": 46,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 2.3,
+        "pieces_used": 10,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 7,
+        "W": 11,
+        "area": 77,
+        "slack": 57,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 3.1,
+        "pieces_used": 10,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 10,
+        "W": 10,
+        "area": 100,
+        "slack": 80,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 8.7,
+        "pieces_used": 10,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 8,
+        "W": 8,
+        "area": 64,
+        "slack": 44,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 11.8,
+        "pieces_used": 10,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 4,
+        "W": 12,
+        "area": 48,
+        "slack": 28,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 0.5,
+        "pieces_used": 10,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 9,
+        "W": 9,
+        "area": 81,
+        "slack": 61,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 14.0,
+        "pieces_used": 10,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 5,
+        "W": 12,
+        "area": 60,
+        "slack": 40,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 3.2,
+        "pieces_used": 10,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 8,
+        "W": 9,
+        "area": 72,
+        "slack": 52,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 15.4,
+        "pieces_used": 10,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 8,
+        "W": 10,
+        "area": 80,
+        "slack": 60,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 17.6,
+        "pieces_used": 10,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 9,
+        "W": 10,
+        "area": 90,
+        "slack": 70,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 17.1,
+        "pieces_used": 10,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 6,
+        "W": 12,
+        "area": 72,
+        "slack": 52,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 4.7,
+        "pieces_used": 10,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 7,
+        "W": 12,
+        "area": 84,
+        "slack": 64,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 4.1,
+        "pieces_used": 10,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 4,
+        "W": 13,
+        "area": 52,
+        "slack": 32,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 0.7,
+        "pieces_used": 10,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 10,
+        "W": 11,
+        "area": 110,
+        "slack": 90,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 11.1,
+        "pieces_used": 10,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 5,
+        "W": 13,
+        "area": 65,
+        "slack": 45,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 3.9,
+        "pieces_used": 10,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 7,
+        "W": 13,
+        "area": 91,
+        "slack": 71,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 4.8,
+        "pieces_used": 10,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 6,
+        "W": 13,
+        "area": 78,
+        "slack": 58,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 5.5,
+        "pieces_used": 10,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 8,
+        "W": 11,
+        "area": 88,
+        "slack": 68,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 21.5,
+        "pieces_used": 10,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 9,
+        "W": 11,
+        "area": 99,
+        "slack": 79,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 22.5,
+        "pieces_used": 10,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 8,
+        "W": 12,
+        "area": 96,
+        "slack": 76,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 24.8,
+        "pieces_used": 10,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 9,
+        "W": 12,
+        "area": 108,
+        "slack": 88,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 26.1,
+        "pieces_used": 10,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      },
+      {
+        "H": 8,
+        "W": 13,
+        "area": 104,
+        "slack": 84,
+        "distinct": 0,
+        "raw": 0,
+        "new_global": 0,
+        "proved": true,
+        "time": 24.8,
+        "pieces_used": 10,
+        "mandatory_cells": 0,
+        "solver_type": "glucose",
+        "status": "complete"
+      }
+    ],
     "proved_range": "1..8",
     "frontier": {
       "n": 9,
       "lower_bound": 111,
-      "status": "computing"
+      "status": "partial"
     }
   },
-  "solutions": []
+  "solutions": [
+    {
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "bbox": [
+        4,
+        8
+      ]
+    },
+    {
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "bbox": [
+        4,
+        8
+      ]
+    },
+    {
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "bbox": [
+        4,
+        8
+      ]
+    },
+    {
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "bbox": [
+        4,
+        8
+      ]
+    },
+    {
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "bbox": [
+        4,
+        8
+      ]
+    },
+    {
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "bbox": [
+        8,
+        5
+      ]
+    },
+    {
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "bbox": [
+        4,
+        8
+      ]
+    }
+  ]
 }
