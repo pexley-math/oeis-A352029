@@ -843,7 +843,9 @@ def main():
             software="solve_a352029.py",
             date=datetime.now().strftime("%Y-%m-%d"),
         )
-        log.set_prior_values(A352029_KNOWN)
+        # Prior values are Mason's (n=1..7) only -- a(8) is our new term
+        prior = {k: v for k, v in A352029_KNOWN.items() if k <= 7}
+        log.set_prior_values(prior)
         log.start_term(n_target, extra_info=f"k={A327094.get(n_target)}, "
                        f"{metadata.get('free_polyominoes')} pieces, "
                        f"{metadata.get('partitions_total')} partitions")

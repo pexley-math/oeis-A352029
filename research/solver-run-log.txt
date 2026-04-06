@@ -8,19 +8,19 @@ SAT enumeration with CEGAR + dual-solver
   NO pre-primed values. All values derived from scratch.
 
   Prior authors' DATA values (from OEIS):
-    n:       1     2     3     4     5     6     7     8
-    a(n):    1     1     2     2     2    14   204     7
+    n:       1     2     3     4     5     6     7
+    a(n):    1     1     2     2     2    14   204
   n = 8
   ----------------------------------------
     k=20, 369 pieces, 36 partitions
-    Result: a(8) = 7  [47.2s]  OPT
-    Verified: PROVED: 7 distinct containers in 47.2s
+    Result: a(8) = 7  [49.6s]  OPT
+    Verified: PROVED: 7 distinct containers in 49.6s
 ======================================================================
 RESULTS SUMMARY
 ======================================================================
     n   a(n)        Box      Time  Status
   ---  -----  ---------  --------  ------
-    8      7                47.2s  OPT
+    8      7                49.6s  OPT
 
-  Total time: 47.2s
+  Total time: 49.6s
 

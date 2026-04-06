@@ -37,7 +37,7 @@ Boolean satisfiability (SAT) enumeration with Counter-Example Guided Abstraction
 - **CEGAR:** Start with only the 20 hardest-to-place pieces (fewest valid placements). Verify candidates against all 369 pieces outside the solver. Add failed constraints lazily. Reduces formula size 10-100x and gives 10-50x speedup on satisfiable partitions.
 - **Partition decomposition:** All valid (H, W) bounding boxes enumerated. Border-touching and no-gap constraints restrict search within each partition; the union over all partitions is complete. Mathematical pruning (triple-piece overhead, spanning tree bound) eliminates infeasible partitions.
 - **Lex-leader symmetry breaking:** Vertical flip, horizontal flip, 180-degree rotation, and 90-degree rotation (square grids) eliminate symmetric duplicates.
-- **Dual-solver selection:** Glucose 4.2 for satisfiable partitions, CaDiCaL 1.9.5 with aggressive restarts for unsatisfiable near-square partitions.
+- **Dual-solver selection:** Glucose 4.2 for SAT-expected partitions, CaDiCaL 1.9.5 with aggressive restarts for UNSAT-expected near-square partitions (aspect ratio > 0.6, slack <= 2). For n=8 all partitions have high slack so Glucose handles all 36; the dual-solver strategy activates at n >= 9.
 
 ## Running the Solver
 
@@ -46,7 +46,7 @@ Boolean satisfiability (SAT) enumeration with Counter-Example Guided Abstraction
 ```bash
 pip install python-sat
 
-# Prove a(8) = 7 (takes ~50 seconds on 8 cores)
+# Prove a(8) = 7 (takes ~45 seconds on 8 cores)
 python code/solve_a352029.py --n 8 --workers 8
 
 # Verify known terms n=3..8

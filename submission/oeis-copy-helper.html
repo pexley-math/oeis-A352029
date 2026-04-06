@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>A352029 OEIS Copy Helper</title>
+<style>
+body { font-family: monospace; max-width: 800px; margin: 20px auto; }
+.field { margin: 20px 0; padding: 10px; border: 1px solid #ccc; }
+.field h3 { margin: 0 0 5px; cursor: pointer; color: #0066cc; }
+.field pre { background: #f5f5f5; padding: 10px; white-space: pre-wrap; }
+.copied { color: green !important; }
+</style>
+<script>
+function copyField(id) {
+  var el = document.getElementById(id);
+  navigator.clipboard.writeText(el.textContent);
+  el.parentElement.querySelector('h3').classList.add('copied');
+  el.parentElement.querySelector('h3').textContent += ' (copied!)';
+}
+</script>
+</head>
+<body>
+<h1>A352029 -- OEIS Copy Helper</h1>
+<p>Click each heading to copy the field content.</p>
+
+<div class="field">
+<h3 onclick="copyField('data')">DATA (click to copy)</h3>
+<pre id="data">1, 1, 2, 2, 2, 14, 204, 7</pre>
+</div>
+
+<div class="field">
+<h3 onclick="copyField('comments')">COMMENTS (click to copy)</h3>
+<pre id="comments">From _Peter Exley_, Apr 06 2026: (Start)
+a(8) = 7, proved by exhaustive SAT enumeration over all 36 valid bounding box partitions of 20 cells. The solver uses Counter-Example Guided Abstraction Refinement (CEGAR) with Glucose 4.2. All 7 minimalist containers are in bounding boxes 4 X 8 (6 solutions) and 5 X 8 (1 solution).
+
+The sequence is not monotonic: a(7) = 204 >> a(8) = 7. This is caused by the exponential growth of A000105(n) (free n-ominoes) overwhelming the sub-quadratic growth of A327094(n) (minimum container size), creating extreme constraint density. At n=8, 369 pieces must fit in just 20 cells (density 18.5 pieces/cell vs 6.4 at n=7).
+
+a(9) >= 111. All 111 known solutions are in bounding boxes 5 X 9 (10), 6 X 9 (97), 6 X 10 (1), and 7 X 9 (3).
+
+Independently verified by two verifiers with disjoint code paths (matrix-based and complex-number orientations), both with local-optimality checks.
+(End)</pre>
+</div>
+
+<div class="field">
+<h3 onclick="copyField('example')">EXAMPLE (click to copy)</h3>
+<pre id="example">From _Peter Exley_, Apr 06 2026: (Start)
+For n=8, the 7 minimalist 20-cell containers that hold all 369 free octominoes are:
+
+  # # # # # # # #    # # # # # # # #    # # # # # # # #
+  # # # # # # . .    # # # # # # . .    . # # # # # # .
+  # # # . . . . .    . . . # # # . .    . # # # . . . .
+  # # # . . . . .    . . . # # # . .    . # # # . . . .
+
+  # # # # # # . .    # # # # # # . .    # # # # # # . .
+  # # # # # # # #    # # # # # # # #    # # # # # # # #
+  # # # . . . . .    . . . # # # . .    . . # # # . . .
+  # # # . . . . .    . . . # # # . .    . . # # # . . .
+
+  . # # # # # # .
+  # # # # # # # #
+  . # # # . . . .
+  . # # # . . . .
+
+Solutions 1-3 and 5-7 have bounding box 4 X 8. Solution 4 (5 X 8) is:
+
+  # # . . .
+  . # # . .
+  . # # # #
+  . # # # .
+  . # # # .
+  # # # # .
+  . # . . .
+  . # . . .
+(End)</pre>
+</div>
+
+<div class="field">
+<h3 onclick="copyField('crossrefs')">CROSSREFS (click to copy)</h3>
+<pre id="crossrefs">Cf. A327094 (minimum container size), A000105 (free polyominoes).</pre>
+</div>
+
+<div class="field">
+<h3 onclick="copyField('links')">LINKS (click to copy)</h3>
+<pre id="links">Peter Exley, <a href="https://github.com/pexley-math/oeis-A352029">Solver code, figures, and data</a></pre>
+</div>
+
+</body>
+</html>
