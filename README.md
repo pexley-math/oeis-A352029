@@ -74,7 +74,6 @@ python code/verify_v2.py 8    # complex-number orientations
 | `research/solver-results.json` | Machine-readable results with solutions |
 | `research/solver-run-log.txt` | Reviewer-grade proof of solver run |
 | `submission/a352029-n8-figures.pdf` | Publication figures (all 7 containers for n=8) |
-| `submission/a352029-paper.pdf` | Standalone paper |
 
 ## Prior Art and Acknowledgments
 
