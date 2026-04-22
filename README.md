@@ -4,7 +4,7 @@ Solver code, data, and figures for [OEIS A352029](https://oeis.org/A352029).
 
 ## The Problem
 
-a(n) = the number of distinct free polyominoes with exactly A327094(n) cells that contain all free n-ominoes as subshapes (under translation, rotation, and reflection). These are the *minimalist containers* -- the smallest polyominoes that universally contain every n-omino, counted up to free equivalence. The input to the problem -- the number of free n-ominoes -- is [A000105](https://oeis.org/A000105). The container size is given by [A327094](https://oeis.org/A327094). The problem dates to T. R. Dawson's Minimum Common Superform question (*Fairy Chess Review* Vol. 5 No. 4, 1942).
+a(n) = the number of distinct free polyominoes with exactly A327094(n) cells that contain all free n-ominoes as subshapes (under translation, rotation, and reflection). These are the *minimalist containers* -- the smallest polyominoes that universally contain every n-omino, counted up to free equivalence. The input to the problem -- the number of free n-ominoes -- is [A000105](https://oeis.org/A000105). The container size is given by [A327094](https://oeis.org/A327094) (submitted to OEIS by Peter Kagey in 2019). The underlying Minimum Common Superform question for pentominoes was posed by T. R. Dawson in 1942 (*Fairy Chess Review* Vol. 5 No. 4).
 
 ## Results
 
@@ -74,6 +74,7 @@ python code/verify_v2.py 8    # complex-number orientations
 | `research/solver-results.json` | Machine-readable results with solutions |
 | `research/solver-run-log.txt` | Reviewer-grade proof of solver run |
 | `submission/a352029-n8-figures.pdf` | Publication figures (all 7 containers for n=8) |
+| `submission/a352029-paper.pdf` | Standalone paper |
 
 ## Prior Art and Acknowledgments
 
